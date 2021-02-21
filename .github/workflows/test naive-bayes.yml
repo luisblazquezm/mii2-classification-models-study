@@ -27,8 +27,8 @@ jobs:
       run: pip install .[docs]
       working-directory: ${{env.working-directory}}
     - name: run doc tests
-      run: cd docs; make html
-      working-directory: ${{env.working-directory}}
+      run: make html
+      working-directory: ${{env.working-directory}}/docs
   ci-test:
     runs-on: ubuntu-latest
     env:
