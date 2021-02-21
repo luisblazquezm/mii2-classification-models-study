@@ -8,7 +8,7 @@ import pandas as pd
 from naive_bayes import NaiveBayesClassifier
 
 def test_naive_bayes():
-	CSV_FILE = 'datasets/example.csv'
+	CSV_FILE = 'datasets/spotify-dataset.csv'
 	df = pd.read_csv(CSV_FILE)
 	classifier = NaiveBayesClassifier()
 
