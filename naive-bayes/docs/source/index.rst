@@ -12,6 +12,14 @@ Installation
 
 ``$ python3 -m pip install . --upgrade``
 
+Tests
+-----
+
+In order to perform tests, first install test dependencies, then run it with pytest as follows:
+``$ python3 -m pip install .[tests] --upgrade``
+``$ python3 -m pytest tests/test.py``
+
+
 Usage
 -----
 
