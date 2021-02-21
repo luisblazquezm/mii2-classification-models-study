@@ -13,6 +13,7 @@ Small description
 
 ```python3
     from naive_bayes import NaiveBayesClassifier
+
     model = NaiveBayesClassifier()
     model.fit(x_train, y_train)
     predictions = model.predict(x_test)
