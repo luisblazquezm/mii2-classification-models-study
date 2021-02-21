@@ -53,5 +53,5 @@ jobs:
       run: pip install .[tests]
       working-directory: ${{env.working-directory}}
     - name: run CI tests
-      run: python -m pytest -vv tests/test.py
+      run: python -m pytest tests/test.py
       working-directory: ${{env.working-directory}}
