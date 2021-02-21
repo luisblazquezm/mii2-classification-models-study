@@ -6,7 +6,7 @@ Small description
 
 - **install**: `python3 -m pip install . --upgrade`
 - **run tests**: install test dependencies with `python3 -m pip install .[tests]`, then go to the tests foleder and run `pytest -vv test.py`
-- **generate doc**: install documentation dependencies with `python3 -m pip install -e .[docs]`, then go to the docs foleder and run `make html`
+- **generate doc**: install documentation dependencies with `python3 -m pip install .[docs]`, then go to the docs folder and run `make html`
 
 
 ## Usage
