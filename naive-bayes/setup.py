@@ -26,7 +26,7 @@ setup(
     url='https://github.com/GandalFran/FSI2/naive-bayes',
     download_url='https://github.com/GandalFran/FSI2/naive-bayes/archive/master.zip',
     license='Copyright',
-    author='AIR Institute',
+    author='Luis Blazquez Miñambres and Francisco Pinto-Santos',
     author_email='franpintosantos@usal.es',
     description='Naive-Bayes classifier',
     long_description=readme(),
@@ -45,8 +45,8 @@ setup(
     keywords='naive-bayes, AI, python',
     python_requires='>=3',
     extra_requires={
-        'tests': read_requeriments_file('docs/requirements.txt'),
-        'docs': read_requeriments_file('tests/requirements.txt')
+        'docs': read_requeriments_file('docs/requirements.txt'),
+        'tests': read_requeriments_file('tests/requirements.txt')
     },
     project_urls={
         'Bug Reports': 'https://github.com/GandalFran/FSI2/issues',
